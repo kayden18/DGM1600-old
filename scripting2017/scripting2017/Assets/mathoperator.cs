@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class MathOperators : MonoBehaviour{
+public class mathoperator : MonoBehaviour{
 
     public int addition = 12 + 4;
     public int subtraction = 12 - 4;
