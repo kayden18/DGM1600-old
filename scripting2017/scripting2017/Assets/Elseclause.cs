@@ -25,3 +25,5 @@ public class Elseclause : MonoBehaviour {
 //else clauses define the opposite of the if statement
 //code checks every else clause whether there are 2 or 200
 //don't copy and paste code
+//keep the variables in if statements constent
+//if statements are either true or false
