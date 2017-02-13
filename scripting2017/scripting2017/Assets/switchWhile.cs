@@ -1,6 +1,6 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using System.Collections;
+
 
 public class switchWhile : MonoBehaviour {
 
@@ -15,9 +15,9 @@ public class switchWhile : MonoBehaviour {
         case powerUps.STREGTH:
                 print("player can lift heavy objects");
         break;
-            case powerUps.SPEED:
-                print("play can move quicker");
-                break;
+        case powerUps.SPEED:
+            print("play can move quicker");
+           break;
         }
 		
 	}
