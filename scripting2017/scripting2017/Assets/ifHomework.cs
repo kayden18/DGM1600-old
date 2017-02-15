@@ -1,6 +1,6 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using System.Collections;
+
 
 public class ifHomework : MonoBehaviour {
 
@@ -141,7 +141,7 @@ public class ifHomework : MonoBehaviour {
                 print("You're loving it");
                 break;
             case BK:
-                print("Watch out for the king);
+                print("Watch out for the king");
                 break;
             case wendys:
                 print("fries and shake");
