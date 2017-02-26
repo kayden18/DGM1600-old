@@ -8,7 +8,7 @@ public class addAnimalToo : MonoBehaviour {
 
     public void addToList()
     {
-        //animalList.myAnimalLists.Add(myAnimals);
+     animalList.myAnimallist.Add(myAnimals);
     }
 }
 //new script

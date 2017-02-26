@@ -4,6 +4,6 @@ using System.Collections.Generic;
 
 public class Lists : MonoBehaviour {
 
-    public List<string> myWeaponLists;
+    public List<string> myAnimallist;
 
 }	

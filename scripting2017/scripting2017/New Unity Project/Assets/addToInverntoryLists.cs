@@ -4,11 +4,11 @@ using System.Collections;
 public class addToInverntoryLists : MonoBehaviour
 {
 
-    public Lists myInventory;
-    public string myWeapon;
+   // public Lists myInventory;
+    //public string myWeapon;
 
-    public void addToList()
+    //public void addToList()
     {
-        myInventory.myWeaponLists.Add(myWeapon);
+       // myInventory.myWeaponLists.Add(myWeapon);
     }
 }
