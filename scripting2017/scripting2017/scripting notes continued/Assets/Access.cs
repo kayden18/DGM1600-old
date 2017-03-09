@@ -2,10 +2,10 @@
 using System.Collections;
 
 public class Access : MonoBehaviour {
-    public ScopeScript home;
+    public ScopeScript store;
 
 	void Start () {
-        print(home.owner);
-        home.Awake();
+        print(store.owner);
+        store.Awake();
 	}
 }
