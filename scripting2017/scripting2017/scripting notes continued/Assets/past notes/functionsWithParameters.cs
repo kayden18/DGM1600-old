@@ -5,6 +5,7 @@ using UnityEngine.UI;
 public class functionsWithParameters : MonoBehaviour {
 
     public int health = 100;
+    public int stamina = 150;
 
     void Start()
     {
@@ -14,6 +15,8 @@ public class functionsWithParameters : MonoBehaviour {
         print(health);
         ReplaceHealth(25, 20);
         print(health);
+        AddStamina(50);
+        print(stamina);
     }
 
     public void AddHealth(int _h)
@@ -23,6 +26,10 @@ public class functionsWithParameters : MonoBehaviour {
     public void ReplaceHealth(int _a, int _b)
     {
         health = _a + _b;
+    }
+    public void AddStamina(int _s)
+    {
+        stamina += _s;
     }
 
     public void WelcomePlayer(string _name)
